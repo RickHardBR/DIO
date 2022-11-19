@@ -31,6 +31,8 @@ body {
   height: 100%;
 
   color: var(--color-font-white);
+
+  background-image: url('../assets/fundoGeral.png');
 }
 
 .logo {
