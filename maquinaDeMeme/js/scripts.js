@@ -28,7 +28,7 @@ async function mapImageList(){
     },
     {
       "name": "Chloe",
-      "path": "assets/cloe.jpg"
+      "path": "assets/chloe.jpg"
     },
     {
       "name": "Felipao",

@@ -22,7 +22,7 @@ body {
   min-height: 100vh;
 
   background-image: url('../assets/fundoGeral.png');
-  background-size:cover ;
+  background-size:cover;
   background-repeat: no-repeat;
 }
 
@@ -35,6 +35,8 @@ body {
   height: 100%;
 
   color: var(--color-font-white);
+
+ 
 }
 
 .logo {
