@@ -20,6 +20,10 @@ body {
   background-color: var(--background-color);
   width: 100%;
   min-height: 100vh;
+
+  background-image: url('../assets/fundoGeral.png');
+  background-size:cover ;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -31,10 +35,6 @@ body {
   height: 100%;
 
   color: var(--color-font-white);
-
-  background-image: url('../assets/fundoGeral.png');
-  background-size:cover ;
-  background-repeat: no-repeat;
 }
 
 .logo {
