@@ -5,12 +5,7 @@ Aprenda na prática a desenvolver seu próprio gerador de memes usando HTML, CSS
 
 <img src="https://user-images.githubusercontent.com/89301596/202341401-9501a948-5467-4997-bb7d-f0f217d25ca2.png" alt="imagem do meme HackerMan">
 
-* [Indice](#funciona)
-    * [Aula01 - 16/11/2022 - Youtube](https://youtu.be/qJAUZ9soSCY)
-    * [Aula02 - Youtube]()
-    * [Aula03 - Youtube]()
-    * [Aula04 - Youtube]()
-
+## Link da aplicação: <a href="https://dio-alpha.vercel.app/">Máquina de Memes - Front End</a>
 ## 💛 Contato
 
 ## 📧rickhhard@gmail.com
