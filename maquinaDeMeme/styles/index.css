@@ -33,7 +33,7 @@ body {
   color: var(--color-font-white);
 
   background-image: url('../assets/fundoGeral.png');
-  background-size: contain;
+  background-size:cover ;
   background-repeat: no-repeat;
 }
 
