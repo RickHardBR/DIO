@@ -11,31 +11,34 @@
 
 <body>
   <div class="container">
-    <div class="app">
+    <div class="app" >
       <div class="logo">
         <img src="./assets/diome-white.png"
         alt="Logo DIO"
         aria-label="Logotipo da Dio" />
       </div>
 
-          <div class="app-image">
+          <div class="app-image" id="downlabled">
             <textarea
             name=""
             class="text-box-top"
-            placeholder="Digite seu meme"
+            placeholder="Digite seu texto do topo aqui"
             aria-multiline="true"></textarea>
 
             <div id="display-image"></div>
             <textarea
             name=""
             class="text-box-bottom"
-            placeholder="Digite seu meme"
+            placeholder="Digite seu texto de baixo aqui"
             aria-multiline="true"></textarea>
           </div>
 
       <div class="app-photo-picker">
-        <select id="meme-list">
-          <option value="1">Meme pronto...</option>
+        <select
+        id="memes-list"
+        onChange="changeMemePicture(this.value)"
+        >
+          <option>Escolha seu meme</option> 
         </select>
         <input
         type="file"
@@ -49,6 +52,23 @@
       </div>
     </div>
   </div>
+  <script defer src="./js/scripts.js"></script>
+  <script defer src="./js/html2canvas.js"></script>
+  <script>
+    document.getElementById("btn-download").onclick = () =>{
+      const screenshotPrint = document.querySelector("#downlabled")
+
+      html2canvas(screenshotPrint).then((canvas)=>{
+        const base64Image = canvas.toDataURL("image/png")
+        let anchor = document.createElement("a")
+        anchor.setAttribute("href", base64Image)
+        anchor.setAttribute("download", "my-meme.png")
+        anchor.click()
+        anchor.remove()
+      })
+
+    }
+  </script>
 </body>
 
 </html>
