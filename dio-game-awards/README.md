@@ -1,6 +1,7 @@
 # DIO FULLSTACK LABS
 # Template Usando Spring Boot Para Criação de APIs REST
   * [Indice](#funciona)
+    * [Snippets](https://gist.github.com/falvojr/04b33012a0f59e47d86a9aa0f347cbd2)
     * [🔙 Voltar para Dio - Principal](https://github.com/RickHardBR/DIO)
   
 
