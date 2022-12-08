@@ -6,7 +6,7 @@
   // Your web app's Firebase configuration
   const firebaseConfig  = {
     apiKey: "",
-    authDomain: ",
+    authDomain: "",
     projectId: "",
     storageBucket: "",
     messagingSenderId: "",
